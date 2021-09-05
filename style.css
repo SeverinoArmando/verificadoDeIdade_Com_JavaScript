@@ -1,0 +1,44 @@
+body{
+    background: rgba(209, 209, 219, 0.486);
+    font: Arial;
+    
+    }
+    
+    header{
+        color: white;
+        text-align: center;
+    
+    }
+    section{
+        background: rgba(210, 255, 240, 0.712);
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.637);
+    }
+    footer{
+        color: rgb(230, 88, 88);
+        text-align: center;
+        font-style: italic;
+    }
+    
+    img{
+        width: 340px;
+        height: 340px;
+        border-radius: 100%;
+        box-shadow: 1px 1px 8px black;
+        margin: 3px;
+    }
+    
+    div{
+        text-align: center;
+        padding: 9px;
+    }
+    #parag{
+        text-align:left;
+    }
+    h1{
+        color: rgba(175, 104, 104, 0.637);
+        text-shadow: -1px 1px 2px black;
+    }

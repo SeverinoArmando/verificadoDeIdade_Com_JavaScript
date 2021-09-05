@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador De Idade</h1>
+    </header>
+    
+    <section>
+
+        <div id="entrada">
+          
+
+            <p id="parag">Ano de Nascimento:
+                <input type="number" name="ano" id="ano" min="0">
+            </p>
+            <p id="parag">Sexo:
+                <input type="radio" name="sexo" id="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p id="bt">
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+            
+        </div>
+
+
+
+        <div id="res"> 
+            Preencha os dados acima para ver o resultado!
+            <img id="foto" src="_imagem/crianca.jpg" alt="jovem">
+           
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; SeverinoEyuluArmando</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
